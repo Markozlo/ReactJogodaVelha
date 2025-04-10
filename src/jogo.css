@@ -1,0 +1,26 @@
+.linha {
+    display: flex;
+}
+
+.q {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    font-size: 48px;
+    border: dotted;
+}
+
+
+.vencedor {
+    background-color: lightgreen; /* Cor de fundo para os quadrados vencedores */
+    animation: pulso 1s ease-in-out infinite alternate; /* Adiciona a animação */
+}
+
+@keyframes pulso {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
